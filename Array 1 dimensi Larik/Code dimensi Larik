@@ -1,1 +1,15 @@
+public class array1Larik {
+    public static void main(String[] args) {
+        // Deklarasi array string
+        String[] buah = {"Apel", "Mangga", "Jeruk"};
+
+        // Menampilkan panjang array
+        System.out.println("Jumlah buah: " + buah.length);
+
+        // Perulangan modern (for-each)
+        for (String b : buah) {
+            System.out.println("Nama Buah: " + b);
+        }
+    }
+}
 
